@@ -4,18 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .header {
   display: none;
 }
 
 .title {
   margin: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .title__p {
   margin-bottom: 30px;
@@ -23,6 +19,7 @@ body {
 .title__h1 {
   margin-bottom: 40px;
   font-size: 3.5rem;
+  align-self: center;
 }
 .title__img {
   display: none;
@@ -93,4 +90,9 @@ body {
   border: 2px solid black;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.footer {
+  background-color: black;
+  padding: 50px;
 }/*# sourceMappingURL=main.css.map */
