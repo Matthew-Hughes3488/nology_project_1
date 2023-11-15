@@ -49,12 +49,9 @@ body {
 .skills {
   margin: 40px;
   display: flex;
-  flex-direction: column;
-}
-.skills__h2 {
-  align-self: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .skills__p {
   margin: 45px;
-  align-self: center;
 }/*# sourceMappingURL=main.css.map */
