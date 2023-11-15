@@ -26,4 +26,22 @@ body {
 }
 .title__img {
   display: none;
+}
+
+.about {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.about__h2 {
+  align-self: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.about__img {
+  align-self: center;
+  margin-bottom: 20px;
+}
+.about__p {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
