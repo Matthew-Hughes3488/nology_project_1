@@ -55,6 +55,7 @@ body{
     margin: 40px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 
     &__p{
@@ -62,3 +63,19 @@ body{
     }
 }
 
+.skill{
+    display: grid;
+    grid-template-areas: 
+    "image"
+    "text";
+    justify-content: space-evenly;
+    
+
+    &__img{
+        grid-area: image;
+    }
+
+    &__h3{
+        grid-area: text;
+    }
+}

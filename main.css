@@ -50,8 +50,21 @@ body {
   margin: 40px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 .skills__p {
   margin: 45px;
+}
+
+.skill {
+  display: grid;
+  grid-template-areas: "image" "text";
+  justify-content: space-evenly;
+}
+.skill__img {
+  grid-area: image;
+}
+.skill__h3 {
+  grid-area: text;
 }/*# sourceMappingURL=main.css.map */
