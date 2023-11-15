@@ -50,3 +50,18 @@ body{
     }
 
 }
+
+.skills{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+
+    &__h2{
+        align-self: center;
+    }
+
+    &__p{
+        margin: 45px;
+        align-self: center;
+    }
+}

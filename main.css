@@ -44,4 +44,17 @@ body {
 }
 .about__p {
   margin-bottom: 10px;
+}
+
+.skills {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.skills__h2 {
+  align-self: center;
+}
+.skills__p {
+  margin: 45px;
+  align-self: center;
 }/*# sourceMappingURL=main.css.map */
