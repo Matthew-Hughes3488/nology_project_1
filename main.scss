@@ -5,9 +5,9 @@
 }
 
 body{
-    margin: 50px;
-    max-width: 100vw;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header{
@@ -15,16 +15,14 @@ body{
 }
 
 .title{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    margin: 50px;
 
     &__p{
         margin-bottom: 30px ;
     }
     &__h1{
+        margin-bottom: 40px;
         font-size: 3.5rem;
-        align-self: center;
     }
     &__img{
         display: none;
