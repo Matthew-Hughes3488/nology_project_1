@@ -53,18 +53,19 @@
   margin-bottom: 40px;
 }
 .skills__p {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
-.skills .skill-icons {
+.skills .skill-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 10px;
 }
-.skills .skill-icons .skill-card {
+.skills .skill-cards .skill-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .projects {
