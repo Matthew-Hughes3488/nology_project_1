@@ -77,3 +77,29 @@ body {
     }
   }
 }
+
+.projects{
+
+    .card{
+        margin: 40px;
+
+        &__h4{
+
+            &--title{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__p{
+            margin-bottom: 20px;
+        }
+
+        &__link{
+            padding: 10px 20px;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    }
+}

@@ -68,4 +68,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projects .card {
+  margin: 40px;
+}
+.projects .card__h4--title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.projects .card__p {
+  margin-bottom: 20px;
+}
+.projects .card__link {
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
