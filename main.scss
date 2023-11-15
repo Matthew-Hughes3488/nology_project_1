@@ -1,81 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header{
+.header {
+  display: none;
+}
+
+.title {
+  margin: 50px;
+
+  &__p {
+    margin-bottom: 30px;
+  }
+  &__h1 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+  }
+  &__img {
     display: none;
+  }
 }
 
-.title{
-    margin: 50px;
+.about {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
 
-    &__p{
-        margin-bottom: 30px ;
-    }
-    &__h1{
-        margin-bottom: 40px;
-        font-size: 3.5rem;
-    }
-    &__img{
-        display: none;
-    }
+  &__h2 {
+    align-self: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  &__p {
+    margin-bottom: 10px;
+  }
 }
 
-.about{
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
+.skills {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    &__h2{
-        align-self: center;
-        font-size: 2rem;
-        margin-bottom: 30px;
-    }
+  &__h2{
+    margin-bottom: 40px;
+  }
 
-    &__img{
-        align-self: center;
-        margin-bottom: 20px;
-    }
+  &__p{
+    margin-bottom: 60px;
+  }
 
-    &__p{
-        margin-bottom: 10px;
-    }
-
-}
-
-.skills{
-    margin: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    &__p{
-        margin: 45px;
-    }
-}
-
-.skill{
+  .skill-icons {
     display: grid;
-    grid-template-areas: 
-    "image"
-    "text";
-    justify-content: space-evenly;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
 
-    &__img{
-        grid-area: image;
+    .skill-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
-    &__h3{
-        grid-area: text;
-    }
+  }
 }
