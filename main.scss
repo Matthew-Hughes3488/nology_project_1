@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: 50px;
+    max-width: 100vw;
+    height: auto;
+}
+
+.header{
+    display: none;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__p{
+        margin-bottom: 30px ;
+    }
+    &__h1{
+        font-size: 3.5rem;
+        align-self: center;
+    }
+    &__img{
+        display: none;
+    }
+}
