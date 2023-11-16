@@ -36,6 +36,16 @@
   display: none;
 }
 
+@media screen and (min-width: 769px) {
+  .title {
+    margin: 5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  .title__img {
+    display: unset;
+  }
+}
 .about {
   margin: 40px;
   display: flex;

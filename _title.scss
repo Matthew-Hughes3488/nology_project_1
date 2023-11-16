@@ -1,17 +1,29 @@
 .title {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-  
-    &__p {
-      margin-bottom: 30px;
-    }
-    &__h1 {
-      margin-bottom: 40px;
-      font-size: 3.5rem;
-      align-self: center;
-    }
-    &__img {
-      display: none;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+
+  &__p {
+    margin-bottom: 30px;
+  }
+  &__h1 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    align-self: center;
+  }
+  &__img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .title{
+    margin: 5rem;
+    flex-direction: row;
+    align-items: center;
+
+    &__img{
+      display: unset;
     }
   }
+}
