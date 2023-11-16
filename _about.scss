@@ -1,20 +1,31 @@
 .about {
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-  
-    &__h2 {
-      align-self: center;
-      font-size: 2rem;
-      margin-bottom: 30px;
-    }
-  
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+
+  &__h2 {
+    align-self: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  &__p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     &__img {
-      align-self: center;
-      margin-bottom: 20px;
-    }
-  
-    &__p {
-      margin-bottom: 10px;
+      grid-row: 1/4;
     }
   }
+}
