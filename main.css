@@ -3,22 +3,6 @@
   display: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", "sans-serif";
-  color: black;
-}
-
-p, a {
-  font-family: "Merriweather", "sans-serif";
-  color: black;
-}
-
 .title {
   margin: 50px;
   display: flex;
@@ -34,6 +18,22 @@ p, a {
 }
 .title__img {
   display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Work Sans", "sans-serif";
+  color: black;
+}
+
+p, a {
+  font-family: "Merriweather", "sans-serif";
+  color: black;
 }
 
 .about {

@@ -1,0 +1,17 @@
+.title {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+  
+    &__p {
+      margin-bottom: 30px;
+    }
+    &__h1 {
+      margin-bottom: 40px;
+      font-size: 3.5rem;
+      align-self: center;
+    }
+    &__img {
+      display: none;
+    }
+  }
