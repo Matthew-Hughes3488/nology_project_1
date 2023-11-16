@@ -1,0 +1,32 @@
+@use "./variables" as *;
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__h2{
+        font-size: 2rem;
+        
+    }
+    .card{
+        margin: 40px;
+
+        &__h4{
+            &--title{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+        }
+        &__p{
+            margin-bottom: 20px;
+        }
+        &__link{
+            padding: 10px 20px;
+            border: 2px solid $color-black;
+            color: $color-black;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    }
+}
