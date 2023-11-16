@@ -64,16 +64,6 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 769px) {
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  .about__img {
-    grid-row: 1/4;
-  }
-}
 .skills {
   margin: 40px;
   display: flex;
