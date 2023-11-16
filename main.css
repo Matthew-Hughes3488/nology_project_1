@@ -99,25 +99,25 @@
     grid-template-columns: repeat(9, 1fr);
   }
 }
-.projects {
+.project {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.projects__h2 {
+.project__h2 {
   font-size: 2rem;
 }
-.projects .card {
+.project .card {
   margin: 40px;
 }
-.projects .card__h4--title {
+.project .card__h4--title {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-.projects .card__p {
+.project .card__p {
   margin-bottom: 20px;
 }
-.projects .card__link {
+.project .card__link {
   padding: 10px 20px;
   border: 2px solid black;
   color: black;
@@ -125,6 +125,12 @@
   border-radius: 10px;
 }
 
+@media screen and (min-width: 769px) {
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .footer {
   background-color: black;
   padding: 50px;
