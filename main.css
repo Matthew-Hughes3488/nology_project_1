@@ -94,6 +94,9 @@
 }
 
 @media screen and (min-width: 769px) {
+  .skills__p {
+    max-width: 50%;
+  }
   .skill-cards {
     grid-template-rows: unset;
     grid-template-columns: repeat(9, 1fr);
