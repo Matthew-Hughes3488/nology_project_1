@@ -132,6 +132,8 @@
 }
 .project .card {
   margin: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .project .card__h4--title {
   font-size: 2rem;
@@ -150,6 +152,7 @@
 
 @media screen and (min-width: 769px) {
   .project-cards {
+    margin: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
