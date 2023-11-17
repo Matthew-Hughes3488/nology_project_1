@@ -23,7 +23,7 @@
 
   .about{
     display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-columns: 10% 30% 50% 10%;
     grid-template-rows: repeat(3, 30%);
     &__img{
       grid-area: 1/2/4/2;
