@@ -64,6 +64,20 @@
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 769px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .about__img {
+    grid-area: 1/1/4/1;
+    justify-self: center;
+  }
+  .about__p {
+    margin-right: 10rem;
+  }
+}
 .skills {
   margin: 40px;
   display: flex;
