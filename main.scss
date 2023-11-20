@@ -12,12 +12,16 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: $color-navy;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family: $font-title;
-  color: $color-black;
+  color: $color-light-blue;
 }
 
 p, a{
   font-family: $font-main;
-  color: $color-black;
+  color: $color-light-blue;
 }
