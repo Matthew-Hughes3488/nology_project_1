@@ -94,10 +94,10 @@
   flex-direction: column;
   align-items: center;
 }
-.skills__h2 {
+.skills__title {
   margin-bottom: 40px;
 }
-.skills__p {
+.skills__text {
   margin-bottom: 40px;
 }
 
@@ -113,12 +113,12 @@
   align-items: center;
   justify-content: flex-end;
 }
-.skill-cards .skill-card__h3 {
+.skill-cards .skill-card__title {
   font-size: 1rem;
 }
 
 @media screen and (min-width: 769px) {
-  .skills__p {
+  .skills__text {
     max-width: 50%;
   }
   .skill-cards {
