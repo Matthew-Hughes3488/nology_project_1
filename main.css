@@ -132,6 +132,9 @@
   align-items: center;
   margin-bottom: 40px;
 }
+.project * {
+  max-width: 100%;
+}
 .project__h2 {
   font-size: 2rem;
 }

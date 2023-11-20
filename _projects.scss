@@ -5,6 +5,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+
+    *{
+        max-width: 100%;
+    }
     
     &__h2{
         font-size: 2rem;
@@ -37,6 +41,6 @@
     .project-cards{
         margin: 3;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);  
+        grid-template-columns: repeat(3, 1fr);
     }
 }
