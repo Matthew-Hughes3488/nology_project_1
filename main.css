@@ -135,7 +135,7 @@
 .project * {
   max-width: 100%;
 }
-.project__h2 {
+.project__title {
   font-size: 2rem;
 }
 .project .card {
@@ -143,11 +143,11 @@
   display: flex;
   flex-direction: column;
 }
-.project .card__h4--title {
+.project .card__title--project-title {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-.project .card__p {
+.project .card__text {
   margin-bottom: 20px;
 }
 .project .card__link {
