@@ -117,7 +117,7 @@
   justify-content: flex-end;
 }
 .skill-cards .skill-card__title {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -161,6 +161,7 @@
   border: 2px solid #E6F5F5;
   color: #E6F5F5;
   text-decoration: none;
+  font-size: 0.9rem;
   border-radius: 10px;
 }
 
