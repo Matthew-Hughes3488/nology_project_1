@@ -180,7 +180,7 @@
 }
 .footer__email {
   text-decoration: none;
-  color: white;
+  color: #282744;
 }
 
 @media screen and (min-width: 769px) {
