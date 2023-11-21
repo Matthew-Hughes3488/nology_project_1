@@ -14,12 +14,15 @@
   .header__h1 {
     font-size: 1rem;
   }
+  .header__link {
+    text-decoration: none;
+  }
   .header__link--button {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid #E6F5F5;
     padding: 10px 20px;
-    color: black;
+    color: #E6F5F5;
     text-decoration: none;
     border-radius: 10px;
   }
@@ -152,8 +155,8 @@
 }
 .project .card__link {
   padding: 10px 20px;
-  border: 2px solid black;
-  color: black;
+  border: 2px solid #E6F5F5;
+  color: #E6F5F5;
   text-decoration: none;
   border-radius: 10px;
 }

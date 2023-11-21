@@ -17,13 +17,14 @@
     }
 
     &__link{
+      text-decoration: none;
 
       &--button{
         display: flex;
         justify-content: center;
-        border: 2px solid $color-black;
+        border: 2px solid $color-light-blue;
         padding: 10px 20px;
-        color: $color-black;
+        color: $color-light-blue;
         text-decoration: none;
         border-radius: 10px;
       }
