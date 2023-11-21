@@ -3,7 +3,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .header {
     margin: 40px;
     display: grid;
@@ -44,7 +44,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .title {
     margin: 5rem;
     flex-direction: row;
@@ -72,7 +72,7 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .about {
     display: grid;
     grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
@@ -120,7 +120,7 @@
   font-size: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .skills__text {
     max-width: 50%;
   }
@@ -164,7 +164,7 @@
   border-radius: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .project-cards {
     margin: 3;
     display: grid;
@@ -186,7 +186,7 @@
   color: #282744;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .footer {
     flex-direction: row-reverse;
     justify-content: space-between;
