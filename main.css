@@ -146,6 +146,9 @@
   display: flex;
   flex-direction: column;
 }
+.project .card__img {
+  margin-bottom: 20px;
+}
 .project .card__title--project-title {
   font-size: 2rem;
   margin-bottom: 20px;

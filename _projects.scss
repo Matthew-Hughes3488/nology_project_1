@@ -18,6 +18,11 @@
         margin: 40px;
         display: flex;
         flex-direction: column;
+
+        &__img{
+            margin-bottom: 20px;
+        }
+
         &__title{
             &--project-title{
                 font-size: 2rem;
