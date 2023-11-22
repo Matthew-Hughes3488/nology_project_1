@@ -16,13 +16,12 @@
   }
   .header__link {
     text-decoration: none;
-    font-size: 0.7rem;
   }
   .header__link--button {
     display: flex;
     justify-content: center;
     border: 2px solid #E6F5F5;
-    padding: 10px 20px;
+    padding: 10px 5px;
     color: #E6F5F5;
     text-decoration: none;
     border-radius: 10px;
