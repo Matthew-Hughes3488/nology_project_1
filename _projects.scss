@@ -37,7 +37,7 @@
             border: 2px solid $color-light-blue;
             color: $color-light-blue;
             text-decoration: none;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             border-radius: 10px;
         }
     }
@@ -48,5 +48,11 @@
         margin: 3;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+
+        .card{
+            &__link{
+                font-size: 0.9rem;
+            }
+        }
     }
 }

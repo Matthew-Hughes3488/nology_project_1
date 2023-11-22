@@ -121,7 +121,7 @@
   justify-content: flex-end;
 }
 .skill-cards .skill-card__title {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -168,7 +168,7 @@
   border: 2px solid #E6F5F5;
   color: #E6F5F5;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   border-radius: 10px;
 }
 
@@ -177,6 +177,9 @@
     margin: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .project-cards .card__link {
+    font-size: 0.9rem;
   }
 }
 .footer {
