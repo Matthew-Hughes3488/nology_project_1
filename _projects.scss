@@ -43,6 +43,16 @@
     }
 }
 
+@media screen and (min-width:768px) {
+    .project-cards{
+        .card{
+            &__link{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
 @media screen and (min-width:992px) {
     .project-cards{
         margin: 3;

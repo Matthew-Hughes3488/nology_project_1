@@ -30,6 +30,16 @@
   }
 }
 
+@media screen and (min-width:768px) {
+  .skill-cards{
+    .skill-card{
+      &__title {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 992px) {
   .skills{
     &__text{
@@ -40,12 +50,5 @@
   .skill-cards{
     grid-template-rows: unset;
     grid-template-columns: repeat(9, 1fr);
-    
-    .skill-card{
-      &__title {
-        font-size: 0.9rem;
-      }
-    }
   }
-
 }

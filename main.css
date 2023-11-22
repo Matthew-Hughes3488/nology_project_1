@@ -123,6 +123,11 @@
   font-size: 0.65rem;
 }
 
+@media screen and (min-width: 768px) {
+  .skill-cards .skill-card__title {
+    font-size: 1rem;
+  }
+}
 @media screen and (min-width: 992px) {
   .skills__text {
     max-width: 50%;
@@ -130,9 +135,6 @@
   .skill-cards {
     grid-template-rows: unset;
     grid-template-columns: repeat(9, 1fr);
-  }
-  .skill-cards .skill-card__title {
-    font-size: 0.9rem;
   }
 }
 .project {
@@ -171,6 +173,11 @@
   border-radius: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .project-cards .card__link {
+    font-size: 1rem;
+  }
+}
 @media screen and (min-width: 992px) {
   .project-cards {
     margin: 3;
