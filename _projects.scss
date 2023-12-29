@@ -1,68 +1,79 @@
 @use "./variables" as *;
 
-.project{
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+
+  * {
+    max-width: 100%;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+  .card {
+    margin: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
 
-    *{
-        max-width: 100%;
+    &__img {
+      margin-bottom: 20px;
     }
-    
-    &__title{
+
+    &__title {
+      &--project-title {
         font-size: 2rem;
-        
+        margin-bottom: 20px;
+      }
     }
-    .card{
-        margin: 40px;
+    &__text {
+      margin-bottom: 20px;
+    }
+    &__link {
+      padding: 10px 20px;
+      border: 2px solid $color-light-blue;
+      color: $color-light-blue;
+      text-decoration: none;
+      font-size: 0.8rem;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-cards {
+    .card {
+      &__link {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-cards {
+    margin: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .card {
         display: flex;
         flex-direction: column;
 
-        &__img{
-            margin-bottom: 20px;
-        }
+      &__img {
+        width: 100%;
+        height: 200px;
+      }
 
-        &__title{
-            &--project-title{
-                font-size: 2rem;
-                margin-bottom: 20px;
-            }
-        }
-        &__text{
-            margin-bottom: 20px;
-        }
-        &__link{
-            padding: 10px 20px;
-            border: 2px solid $color-light-blue;
-            color: $color-light-blue;
-            text-decoration: none;
-            font-size: 0.8rem;
-            border-radius: 10px;
-        }
+      nav{
+        margin-top: auto;
+      }
+
+      &__link {
+        font-size: 0.9rem;
+      }
     }
-}
-
-@media screen and (min-width:768px) {
-    .project-cards{
-        .card{
-            &__link{
-                font-size: 1rem;
-            }
-        }
-    }
-}
-
-@media screen and (min-width:992px) {
-    .project-cards{
-        margin: 3;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-
-        .card{
-            &__link{
-                font-size: 0.9rem;
-            }
-        }
-    }
+  }
 }
