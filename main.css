@@ -68,6 +68,9 @@
   margin-bottom: 30px;
 }
 .about__img {
+  width: 80%;
+  border-radius: 5px;
+  height: auto;
   align-self: center;
   margin-bottom: 20px;
 }
@@ -156,6 +159,7 @@
 }
 .project .card__img {
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 .project .card__title--project-title {
   font-size: 2rem;
