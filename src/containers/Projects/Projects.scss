@@ -1,4 +1,4 @@
-@use "./variables" as *;
+@use "../../assets/styles/variables" as *;
 
 .project {
   display: flex;
@@ -12,35 +12,14 @@
 
   &__title {
     font-size: 2rem;
+    font-family: $font-title;
+    color: $color-light-blue;
+    margin-bottom: 40px;
   }
-  .card {
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
+}
 
-    &__img {
-      margin-bottom: 20px;
-      border-radius: 5px;
-    }
-
-    &__title {
-      &--project-title {
-        font-size: 2rem;
-        margin-bottom: 20px;
-      }
-    }
-    &__text {
-      margin-bottom: 20px;
-    }
-    &__link {
-      padding: 10px 20px;
-      border: 2px solid $color-light-blue;
-      color: $color-light-blue;
-      text-decoration: none;
-      font-size: 0.8rem;
-      border-radius: 10px;
-    }
-  }
+.project-cards {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -58,17 +37,20 @@
     margin: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
 
     .card {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
 
       &__img {
         width: 100%;
         height: 200px;
+        object-fit: cover;
       }
 
-      nav{
+      nav {
         margin-top: auto;
       }
 

@@ -1,0 +1,50 @@
+@use "../../assets/styles/variables" as *;
+
+.title {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+
+  &__intro {
+    margin-bottom: 30px;
+    font-family: $font-main;
+    color: $color-light-blue;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    align-self: center;
+    font-family: $font-title;
+    color: $color-light-blue;
+    text-align: center;
+  }
+
+  &__img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    margin: 5rem;
+    flex-direction: row;
+    align-items: center;
+
+    &__img {
+      display: unset;
+      max-width: 50%;
+      height: auto;
+    }
+
+    &__title {
+      font-size: 4rem;
+      text-align: left;
+    }
+
+    div {
+      flex: 1;
+      margin-right: 2rem;
+    }
+  }
+}

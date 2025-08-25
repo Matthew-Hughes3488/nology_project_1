@@ -1,26 +1,30 @@
-@use "./variables" as *;
+@use "../../assets/styles/variables" as *;
 
 .header {
-    display: none;
-  }
+  display: none;
+}
 
-@media screen and (min-width:992px) {
-  .header{
+@media screen and (min-width: 992px) {
+  .header {
     margin: 40px;
     display: grid;
     align-items: center;
     grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1frpx;
+    grid-template-rows: 1fr;
 
-    &__h1{
+    &__h1 {
       font-size: 1rem;
     }
 
-    &__link{
+    &__link {
       text-decoration: none;
-      
+      background: none;
+      border: none;
+      font-family: $font-main;
+      color: $color-light-blue;
+      cursor: pointer;
 
-      &--button{
+      &--button {
         display: flex;
         justify-content: center;
         border: 2px solid $color-light-blue;
