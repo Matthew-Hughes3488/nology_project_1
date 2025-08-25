@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.scss';
+import profileImage from '../../assets/images/Profile-Picture.jpeg';
 
 interface AboutProps {}
 
@@ -9,7 +10,7 @@ const About: React.FC<AboutProps> = () => {
       <h2 className="about__title">About Me</h2>
       <img
         className="about__img"
-        src="/src/assets/images/Profile-Picture.jpeg"
+        src={profileImage}
         alt="Picture of me"
       />
       <p className="about__text">

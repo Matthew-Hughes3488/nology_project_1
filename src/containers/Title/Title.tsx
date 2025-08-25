@@ -1,5 +1,6 @@
 import React from 'react';
 import './Title.scss';
+import developerImage from '../../assets/images/Devloper.png';
 
 interface TitleProps {}
 
@@ -15,7 +16,7 @@ const Title: React.FC<TitleProps> = () => {
 
       <img
         className="title__img"
-        src="/src/assets/images/Devloper.png"
+        src={developerImage}
         alt="developer coding"
       />
     </section>
