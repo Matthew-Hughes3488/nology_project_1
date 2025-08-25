@@ -1,0 +1,35 @@
+@use "./assets/styles/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-navy;
+  margin: 0;
+  font-family: $font-main;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: $color-navy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+  color: $color-light-blue;
+}
+
+p, a {
+  font-family: $font-main;
+  color: $color-light-blue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

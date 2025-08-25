@@ -1,3 +1,5 @@
+@use "../../assets/styles/variables" as *;
+
 .skills {
   margin: 40px;
   display: flex;
@@ -6,49 +8,47 @@
 
   &__title {
     margin-bottom: 40px;
+    font-family: $font-title;
+    color: $color-light-blue;
+    font-size: 2rem;
   }
 
   &__text {
     margin-bottom: 40px;
+    font-family: $font-main;
+    color: $color-light-blue;
+    line-height: 1.6;
+    text-align: center;
   }
 }
+
 .skill-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
-
-  .skill-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-
-    &__title {
-      font-size: 0.65rem;
-    }
-  }
+  width: 100%;
+  max-width: 300px;
 }
 
-@media screen and (min-width:768px) {
-  .skill-cards{
-    .skill-card{
-      &__title {
-        font-size: 1rem;
-      }
-    }
+@media screen and (min-width: 768px) {
+  .skill-cards {
+    max-width: 400px;
+    gap: 20px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .skills{
-    &__text{
+  .skills {
+    &__text {
       max-width: 50%;
     }
   }
 
-  .skill-cards{
+  .skill-cards {
     grid-template-rows: unset;
     grid-template-columns: repeat(9, 1fr);
+    max-width: 800px;
+    gap: 30px;
   }
 }
